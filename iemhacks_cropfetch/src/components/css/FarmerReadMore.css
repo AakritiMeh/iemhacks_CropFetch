@@ -1,0 +1,20 @@
+.Container{
+    width:60vw;
+    height:auto;
+    p{
+        text-align:center;
+        background-color:#429adc;
+        border-radius:14px;
+        border:3px solid #303034;
+        color:#002427;
+        width:50vw;
+        height:auto;
+        padding:10px 10px;
+        justify-content:center;
+    }
+    img{
+        display:flex;
+        justify-content:flex-end;
+    }
+    
+}
