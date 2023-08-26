@@ -1,14 +1,14 @@
-import HomePage from './components/HomePage/HomePage';
-import NavBar from './components/Navbar/NavBar';
-
 import './App.css';
+import Home from './components/js/home';
+
+import SignInUp from './components/js/SignInUp';
 
 function App() {
   return (
-    <>
-    <NavBar></NavBar>
-      <HomePage></HomePage>
-    </>
+    <div className="App">
+      
+      <Home></Home>
+    </div>
   );
 }
 
